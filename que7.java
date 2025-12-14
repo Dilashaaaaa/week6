@@ -7,7 +7,7 @@
  */
 public class que7
 {
-    public class SeatingChart {
+     
     public static void main(String[] args) {
 
         String[][] seats = new String[2][3];
@@ -16,7 +16,6 @@ public class que7
         seats[0][0] = "Aayush";
         seats[0][1] = "Sita";
         seats[0][2] = "Ravi";
-        // Second row left empty (null)
         // Print seating chart
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 3; j++) {
@@ -31,4 +30,4 @@ public class que7
         }
     }
 }
-}
+

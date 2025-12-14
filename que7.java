@@ -11,11 +11,10 @@ public class que7
     public static void main(String[] args) {
 
         String[][] seats = new String[2][3];
-
         // First row filled with names
-        seats[0][0] = "Aayush";
-        seats[0][1] = "Sita";
-        seats[0][2] = "Ravi";
+        seats[0][0] = "Dilasha";
+        seats[0][1] = "Doma";
+        seats[0][2] = "Sofiya";
         // Print seating chart
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 3; j++) {
